@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<style name="AppTheme" parent="AppTheme.Base">
+    <!--Navigation bar color-->
+    <item name="android:navigationBarColor">@color/blue</item>
+    <item name="android:toolbarStyle">@style/MyToolBar</item>
+</style>
+    <style name="MyToolBar">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+</resources>

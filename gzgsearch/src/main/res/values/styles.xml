@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+
+
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="Goal_ExpandableView_TextView">
+        <item name="textSize">18sp</item>
+        <item name="textColor">@color/blue</item>
+    </style>
+
+
+</resources>

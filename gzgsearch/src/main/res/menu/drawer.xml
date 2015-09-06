@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/shipwork"
+            android:checked="true"
+
+            android:title="在港作业信息大船"></item>
+        <item
+            android:id="@+id/goal"
+
+            android:title="任务目标"></item>
+        <item
+            android:id="@+id/dayAndNight"
+
+            android:orderInCategory="0"
+            android:title="昼夜计划"></item>
+        <item
+            android:id="@+id/transport"
+
+            android:title="疏运情况"></item>
+        <item
+            android:id="@+id/section"
+
+            android:title="段结表查询"></item>
+        <item
+            android:id="@+id/eighthour"
+            android:title="工班计划"></item>
+        <item
+            android:id="@+id/throughput"
+
+            android:title="吞吐量"></item>
+        <item
+            android:id="@+id/loadAndUnload"
+
+            android:title="装卸货量统计"></item>
+        <item
+            android:id="@+id/importantStock"
+
+            android:title="重点货物库存"></item>
+    </group>
+
+</menu>
